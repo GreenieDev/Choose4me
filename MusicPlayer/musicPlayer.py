@@ -2,7 +2,7 @@ import utils.ApresentaçãoDoPrograma as apresentar
 import utils.Options
 from playsound import playsound
 aP = apresentar.Apresentação()
-opt = utils.options.Options()
+opt = utils.Options.Options()
 
 class MusicPlayer:
     def __init__(self):
