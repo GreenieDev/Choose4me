@@ -21,7 +21,7 @@ class MusicPlayer:
             if self.stop == False:
                 if self.playing == 1:
                     winsound.PlaySound(f"musics\\{self.music}", winsound.SND_ALIAS)
-                    print("Acabou!")
+                    #print("Acabou!")
                 os.system("cls")
                     
 
@@ -32,8 +32,8 @@ class MusicPlayer:
 
         print(options)
         try:
-            musicIndex = (input("Selecione a sua opção:   "))
-            if musicIndex.upper() == "S":
+            musicIndex = (input("Select yout option:   "))
+            if musicIndex.upper() == "X":
                 os.system("cls")
                 self.stop = True
             else:

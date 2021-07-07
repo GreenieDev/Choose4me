@@ -11,5 +11,5 @@ class Options:
         for filename in self.files:
             options += f"[{index}]     {filename}\n"
             index += 1
-        options += "\n[S]     Sair\n"
+        options += "\n[X]     Exit\n"
         return self.files, options
