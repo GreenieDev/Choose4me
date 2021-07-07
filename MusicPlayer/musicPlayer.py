@@ -33,7 +33,8 @@ class MusicPlayer:
         print(options)
         try:
             musicIndex = (input("Selecione a sua opção:   "))
-            if musicIndex == "S":
+            if musicIndex.upper() == "S":
+                os.system("cls")
                 self.stop = True
             else:
                 
